@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Locale;
 
-public class Bee104 {
+public class Bee1014 {
 
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
