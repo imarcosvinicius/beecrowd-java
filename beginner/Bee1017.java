@@ -7,9 +7,9 @@ public class Bee1017 {
         try (Scanner sc = new Scanner(System.in)) {
  
             int travelTime = sc.nextInt();
-            int avarageSpeed = sc.nextInt();
+            int averageSpeed = sc.nextInt();
 
-            double distance = calculateDistance(avarageSpeed, travelTime);
+            double distance = calculateDistance(averageSpeed, travelTime);
             double fuelSpent = calculateFuelSpent(distance);
 
             System.out.printf("%.3f%n", fuelSpent);
